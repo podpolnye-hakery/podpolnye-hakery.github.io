@@ -1,17 +1,14 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 <script>
-var usrlang = navigator.language
-|| navigator.userLanguage;
-function ru(){window.location = "https://podpolnye-hakery.github.io/ru/index.html";}
-function uk(){window.location = "https://podpolnye-hakery.github.io/uk/index.html";}
-function en(){window.location = "https://podpolnye-hakery.github.io/en/index.html";}
-
+var usrlang = navigator.language||navigator.userLanguage;
+function ru(){window.location = "https://podpolnye-hakery.github.io/ru/index.html#home";}
+function uk(){window.location = "https://podpolnye-hakery.github.io/uk/index.html#home";}
+function en(){window.location = "https://podpolnye-hakery.github.io/en/index.html#home";}
 if(usrlang == "ru-RU"){setTimeout('ru()', 0);}
 else if(usrlang == "uk-UA"){setTimeout('uk()', 0);}
 else{setTimeout('en()', 0);}
-
 </script>
 </body>
 </html> 
